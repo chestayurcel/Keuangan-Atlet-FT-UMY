@@ -52,7 +52,7 @@
             this.Nama.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nama.Location = new System.Drawing.Point(38, 117);
             this.Nama.Name = "Nama";
-            this.Nama.Size = new System.Drawing.Size(37, 16);
+            this.Nama.Size = new System.Drawing.Size(71, 32);
             this.Nama.TabIndex = 0;
             this.Nama.Text = "Nim";
             this.Nama.Click += new System.EventHandler(this.Nama_Click);
@@ -61,7 +61,7 @@
             // 
             this.txtNIM.Location = new System.Drawing.Point(38, 136);
             this.txtNIM.Name = "txtNIM";
-            this.txtNIM.Size = new System.Drawing.Size(225, 20);
+            this.txtNIM.Size = new System.Drawing.Size(225, 32);
             this.txtNIM.TabIndex = 1;
             // 
             // labeljudul
@@ -71,7 +71,7 @@
             this.labeljudul.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.labeljudul.Location = new System.Drawing.Point(329, 34);
             this.labeljudul.Name = "labeljudul";
-            this.labeljudul.Size = new System.Drawing.Size(832, 57);
+            this.labeljudul.Size = new System.Drawing.Size(1667, 114);
             this.labeljudul.TabIndex = 2;
             this.labeljudul.Text = "DATA ATLET FAKULTAS TEKNIK UMY";
             // 
@@ -81,7 +81,7 @@
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(38, 187);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 16);
+            this.label2.Size = new System.Drawing.Size(94, 32);
             this.label2.TabIndex = 3;
             this.label2.Text = "Nama";
             // 
@@ -89,7 +89,7 @@
             // 
             this.txtNama.Location = new System.Drawing.Point(38, 206);
             this.txtNama.Name = "txtNama";
-            this.txtNama.Size = new System.Drawing.Size(225, 20);
+            this.txtNama.Size = new System.Drawing.Size(225, 32);
             this.txtNama.TabIndex = 4;
             // 
             // label3
@@ -98,7 +98,7 @@
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(38, 257);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 16);
+            this.label3.Size = new System.Drawing.Size(89, 32);
             this.label3.TabIndex = 5;
             this.label3.Text = "Prodi";
             // 
@@ -106,7 +106,7 @@
             // 
             this.txtProdi.Location = new System.Drawing.Point(38, 276);
             this.txtProdi.Name = "txtProdi";
-            this.txtProdi.Size = new System.Drawing.Size(225, 20);
+            this.txtProdi.Size = new System.Drawing.Size(225, 32);
             this.txtProdi.TabIndex = 6;
             // 
             // label4
@@ -115,7 +115,7 @@
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(38, 327);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 16);
+            this.label4.Size = new System.Drawing.Size(147, 32);
             this.label4.TabIndex = 7;
             this.label4.Text = "Angkatan";
             // 
@@ -123,7 +123,7 @@
             // 
             this.txtAngkatan.Location = new System.Drawing.Point(38, 346);
             this.txtAngkatan.Name = "txtAngkatan";
-            this.txtAngkatan.Size = new System.Drawing.Size(225, 20);
+            this.txtAngkatan.Size = new System.Drawing.Size(225, 32);
             this.txtAngkatan.TabIndex = 8;
             // 
             // label5
@@ -132,7 +132,7 @@
             this.label5.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(38, 397);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(126, 16);
+            this.label5.Size = new System.Drawing.Size(255, 32);
             this.label5.TabIndex = 9;
             this.label5.Text = "Cabang Olahraga";
             // 
@@ -140,7 +140,7 @@
             // 
             this.txtCabor.Location = new System.Drawing.Point(38, 416);
             this.txtCabor.Name = "txtCabor";
-            this.txtCabor.Size = new System.Drawing.Size(225, 20);
+            this.txtCabor.Size = new System.Drawing.Size(225, 32);
             this.txtCabor.TabIndex = 10;
             // 
             // btnCreate
@@ -191,10 +191,11 @@
             this.dgvMahasiswa.Size = new System.Drawing.Size(914, 570);
             this.dgvMahasiswa.TabIndex = 14;
             this.dgvMahasiswa.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMahasiswa_CellClick);
+            this.dgvMahasiswa.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMahasiswa_CellContentClick);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(1215, 703);

@@ -148,11 +148,19 @@ namespace FIX
                 txtCabor.Text = row.Cells[4].Value?.ToString();
             }
         }
+          
+
+
+
 
         private void Nama_Click(object sender, EventArgs e)
         {
 
         }
 
+        private void dgvMahasiswa_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
